@@ -81,7 +81,7 @@ class ContactListFragment : Fragment(R.layout.fragment_contact_list) {
             layoutManager = LinearLayoutManager(requireContext())
             setHasFixedSize(true)
             addItemDecoration(RecyclerViewItemDecoration())
-            var dividerItemDecoration = DividerItemDecoration(
+            val dividerItemDecoration = DividerItemDecoration(
                 requireContext(),
                 (layoutManager as LinearLayoutManager).orientation
             )

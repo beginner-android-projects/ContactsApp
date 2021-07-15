@@ -65,16 +65,6 @@ class ContactsRepository @Inject constructor(
         contactsDao.update(contact.copy(hasModifiedLocally = true))
     }
 
-    fun getContactsLiveData(): LiveData<PagingData<Contact>> {
-        return Pager(
-            config = PagingConfig(enablePlaceholders = false, pageSize = NETWORK_PAGE_SIZE),
-            pagingSourceFactory = {
-                ContactsDataSource(contactsApi)
-            }
-        ).liveData
-
-    }
-
     companion object {
         private const val NETWORK_PAGE_SIZE = 10
     }

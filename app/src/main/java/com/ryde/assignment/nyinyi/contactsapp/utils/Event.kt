@@ -10,7 +10,7 @@ import androidx.lifecycle.Observer
  */
 open class Event<out T>(private val content: T) {
 
-    var hasBeenHandled = false
+    private var hasBeenHandled = false
         private set // Allow external read but not write
 
     /**
@@ -49,7 +49,7 @@ inline fun <T> LiveData<Event<T>>.observeEvent(
     owner: LifecycleOwner,
     crossinline onEventUnhandledContent: (T) -> Unit
 ) {
-    observe(owner, Observer { it?.getContentIfNotHandled()?.let(onEventUnhandledContent) })
+    observe(owner, { it?.getContentIfNotHandled()?.let(onEventUnhandledContent) })
 }
 
 inline fun <T> MutableLiveData<Event<T>>.postEvent(data: T) {

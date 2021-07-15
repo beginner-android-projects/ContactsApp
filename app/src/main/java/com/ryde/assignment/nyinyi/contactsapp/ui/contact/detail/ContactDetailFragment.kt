@@ -47,7 +47,7 @@ class ContactDetailFragment : Fragment(R.layout.fragment_contact_detail) {
 
     private fun bindProfileData() {
 
-        viewModel.selectedItem.observe(viewLifecycleOwner, Observer { contact ->
+        viewModel.selectedItem.observe(viewLifecycleOwner, { contact ->
             binding.let {
 
                 if (contact?.avatar.isNullOrEmpty()) {
