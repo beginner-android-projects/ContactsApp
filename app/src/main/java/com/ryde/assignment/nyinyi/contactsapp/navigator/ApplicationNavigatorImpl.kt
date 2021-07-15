@@ -6,7 +6,8 @@ import com.ryde.assignment.nyinyi.contactsapp.R
 import com.ryde.assignment.nyinyi.contactsapp.ui.contact.list.ContactListFragment
 import javax.inject.Inject
 
-class ApplicationNavigatorImpl @Inject constructor(private val activity : FragmentActivity) : ApplicationNavigator {
+class ApplicationNavigatorImpl @Inject constructor(private val activity: FragmentActivity) :
+    ApplicationNavigator {
     override fun navigateTo(screen: Screens, args: Bundle?) {
 
         val fragment = when (screen) {
