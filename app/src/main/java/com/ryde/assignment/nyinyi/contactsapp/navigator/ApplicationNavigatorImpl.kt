@@ -3,6 +3,7 @@ package com.ryde.assignment.nyinyi.contactsapp.navigator
 import android.os.Bundle
 import androidx.fragment.app.FragmentActivity
 import com.ryde.assignment.nyinyi.contactsapp.R
+import com.ryde.assignment.nyinyi.contactsapp.ui.contact.create.ContactCreateFragment
 import com.ryde.assignment.nyinyi.contactsapp.ui.contact.detail.ContactDetailFragment
 import com.ryde.assignment.nyinyi.contactsapp.ui.contact.edit.ContactEditFragment
 import com.ryde.assignment.nyinyi.contactsapp.ui.contact.list.ContactListFragment
@@ -16,7 +17,7 @@ class ApplicationNavigatorImpl @Inject constructor(private val activity: Fragmen
             Screens.CONTACT_LIST -> ContactListFragment()
             Screens.CONTACT_DETAIL -> ContactDetailFragment()
             Screens.CONTACT_EDIT -> ContactEditFragment()
-            Screens.CONTACT_CREATE -> ContactListFragment()
+            Screens.CONTACT_CREATE -> ContactCreateFragment()
         }.apply {
             arguments = args
         }
