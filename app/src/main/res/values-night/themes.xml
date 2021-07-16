@@ -13,7 +13,7 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
 
-        <item name="android:textColor" >@color/black</item>
+        <item name="android:textColor" >@color/white</item>
 
         <item name="android:buttonStyle">@style/ButtonColor</item>
         <item name="colorButtonNormal">@color/black</item>
@@ -26,6 +26,7 @@
 
     <style name="ThemeOverlay.AppTheme.TextInputEditText.Outlined" parent="">
         <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="strokeColor">@color/white_20</item>
     </style>
 
 </resources>

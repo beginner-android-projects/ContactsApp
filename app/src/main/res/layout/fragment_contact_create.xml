@@ -62,8 +62,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:hint="@string/first_name"
-            app:boxStrokeColor="@color/black_50"
-            app:hintTextColor="@color/black"
+            app:boxStrokeColor="@color/boxStrokeColor"
+            app:hintTextColor="@color/hintTextColor"
             >
 
             <com.google.android.material.textfield.TextInputEditText
@@ -85,8 +85,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:hint="@string/last_name"
-            app:boxStrokeColor="@color/black_50"
-            app:hintTextColor="@color/black">
+            app:boxStrokeColor="@color/boxStrokeColor"
+            app:hintTextColor="@color/hintTextColor">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
