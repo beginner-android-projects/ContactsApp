@@ -1,14 +1,14 @@
-package com.ryde.assignment.nyinyi.contactsapp.data.remotediator
+package com.ryde.assignment.nyinyi.contactsapp.data.remote.remotediator
 
 import androidx.paging.ExperimentalPagingApi
 import androidx.paging.LoadType
 import androidx.paging.PagingState
 import androidx.paging.RemoteMediator
 import androidx.room.withTransaction
-import com.ryde.assignment.nyinyi.contactsapp.api.ContactsApi
-import com.ryde.assignment.nyinyi.contactsapp.data.db.AppDataBase
-import com.ryde.assignment.nyinyi.contactsapp.data.entity.Contact
-import com.ryde.assignment.nyinyi.contactsapp.data.entity.RemoteKeys
+import com.ryde.assignment.nyinyi.contactsapp.data.remote.api.ContactsApi
+import com.ryde.assignment.nyinyi.contactsapp.data.local.db.AppDataBase
+import com.ryde.assignment.nyinyi.contactsapp.data.local.entity.Contact
+import com.ryde.assignment.nyinyi.contactsapp.data.local.entity.RemoteKeys
 import com.ryde.assignment.nyinyi.contactsapp.utils.STARTING_PAGE_INDEX
 import kotlinx.coroutines.delay
 import retrofit2.HttpException

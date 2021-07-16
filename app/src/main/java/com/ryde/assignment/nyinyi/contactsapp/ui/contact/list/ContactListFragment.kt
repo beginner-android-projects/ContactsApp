@@ -11,7 +11,7 @@ import androidx.paging.LoadState
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.ryde.assignment.nyinyi.contactsapp.R
-import com.ryde.assignment.nyinyi.contactsapp.data.entity.Contact
+import com.ryde.assignment.nyinyi.contactsapp.data.local.entity.Contact
 import com.ryde.assignment.nyinyi.contactsapp.databinding.FragmentContactListBinding
 import com.ryde.assignment.nyinyi.contactsapp.navigator.ApplicationNavigator
 import com.ryde.assignment.nyinyi.contactsapp.navigator.Screens

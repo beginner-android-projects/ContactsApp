@@ -2,10 +2,10 @@ package com.ryde.assignment.nyinyi.contactsapp.di
 
 import android.content.Context
 import com.ryde.assignment.nyinyi.contactsapp.BuildConfig
-import com.ryde.assignment.nyinyi.contactsapp.api.ContactsApi
-import com.ryde.assignment.nyinyi.contactsapp.data.dao.ContactsDao
-import com.ryde.assignment.nyinyi.contactsapp.data.dao.RemoteKeysDao
-import com.ryde.assignment.nyinyi.contactsapp.data.db.AppDataBase
+import com.ryde.assignment.nyinyi.contactsapp.data.remote.api.ContactsApi
+import com.ryde.assignment.nyinyi.contactsapp.data.local.dao.ContactsDao
+import com.ryde.assignment.nyinyi.contactsapp.data.local.dao.RemoteKeysDao
+import com.ryde.assignment.nyinyi.contactsapp.data.local.db.AppDataBase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

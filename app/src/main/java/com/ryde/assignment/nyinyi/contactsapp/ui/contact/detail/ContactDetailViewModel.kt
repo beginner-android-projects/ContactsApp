@@ -1,7 +1,7 @@
 package com.ryde.assignment.nyinyi.contactsapp.ui.contact.detail
 
 import androidx.lifecycle.*
-import com.ryde.assignment.nyinyi.contactsapp.data.entity.Contact
+import com.ryde.assignment.nyinyi.contactsapp.data.local.entity.Contact
 import com.ryde.assignment.nyinyi.contactsapp.data.repository.ContactsRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject

@@ -1,10 +1,10 @@
-package com.ryde.assignment.nyinyi.contactsapp.data.dao
+package com.ryde.assignment.nyinyi.contactsapp.data.local.dao
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.ryde.assignment.nyinyi.contactsapp.data.entity.RemoteKeys
+import com.ryde.assignment.nyinyi.contactsapp.data.local.entity.RemoteKeys
 
 @Dao
 interface RemoteKeysDao {

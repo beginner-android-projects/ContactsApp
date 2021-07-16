@@ -1,4 +1,4 @@
-package com.ryde.assignment.nyinyi.contactsapp.api
+package com.ryde.assignment.nyinyi.contactsapp.data.remote.api
 
 import com.ryde.assignment.nyinyi.contactsapp.models.ContactData
 import com.ryde.assignment.nyinyi.contactsapp.models.ContactUpload

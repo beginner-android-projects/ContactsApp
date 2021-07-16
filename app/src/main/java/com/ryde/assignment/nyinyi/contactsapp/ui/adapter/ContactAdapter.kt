@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import coil.transform.CircleCropTransformation
 import com.ryde.assignment.nyinyi.contactsapp.R
-import com.ryde.assignment.nyinyi.contactsapp.data.entity.Contact
+import com.ryde.assignment.nyinyi.contactsapp.data.local.entity.Contact
 import com.ryde.assignment.nyinyi.contactsapp.databinding.AdapterItemBinding
 
 class ContactAdapter(private val clicked: (Contact) -> Unit) :

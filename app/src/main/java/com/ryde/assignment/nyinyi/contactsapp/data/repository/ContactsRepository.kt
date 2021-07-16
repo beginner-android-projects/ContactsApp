@@ -2,11 +2,10 @@ package com.ryde.assignment.nyinyi.contactsapp.data.repository
 
 import androidx.lifecycle.LiveData
 import androidx.paging.*
-import com.ryde.assignment.nyinyi.contactsapp.api.ContactsApi
-import com.ryde.assignment.nyinyi.contactsapp.data.datasource.ContactsDataSource
-import com.ryde.assignment.nyinyi.contactsapp.data.db.AppDataBase
-import com.ryde.assignment.nyinyi.contactsapp.data.entity.Contact
-import com.ryde.assignment.nyinyi.contactsapp.data.remotediator.ContactsRemoteMediator
+import com.ryde.assignment.nyinyi.contactsapp.data.remote.api.ContactsApi
+import com.ryde.assignment.nyinyi.contactsapp.data.local.db.AppDataBase
+import com.ryde.assignment.nyinyi.contactsapp.data.local.entity.Contact
+import com.ryde.assignment.nyinyi.contactsapp.data.remote.remotediator.ContactsRemoteMediator
 import com.ryde.assignment.nyinyi.contactsapp.models.ContactUploadRequest
 import kotlinx.coroutines.flow.Flow
 import java.util.*

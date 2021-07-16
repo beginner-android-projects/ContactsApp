@@ -2,8 +2,8 @@ package com.ryde.assignment.nyinyi.contactsapp.data.datasource
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
-import com.ryde.assignment.nyinyi.contactsapp.api.ContactsApi
-import com.ryde.assignment.nyinyi.contactsapp.data.entity.Contact
+import com.ryde.assignment.nyinyi.contactsapp.data.remote.api.ContactsApi
+import com.ryde.assignment.nyinyi.contactsapp.data.local.entity.Contact
 import com.ryde.assignment.nyinyi.contactsapp.utils.STARTING_PAGE_INDEX
 import retrofit2.HttpException
 import java.io.IOException

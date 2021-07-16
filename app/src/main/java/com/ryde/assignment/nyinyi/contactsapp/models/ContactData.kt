@@ -2,7 +2,7 @@ package com.ryde.assignment.nyinyi.contactsapp.models
 
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
-import com.ryde.assignment.nyinyi.contactsapp.data.entity.Contact
+import com.ryde.assignment.nyinyi.contactsapp.data.local.entity.Contact
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize

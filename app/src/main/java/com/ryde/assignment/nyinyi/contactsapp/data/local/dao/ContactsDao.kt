@@ -1,9 +1,9 @@
-package com.ryde.assignment.nyinyi.contactsapp.data.dao
+package com.ryde.assignment.nyinyi.contactsapp.data.local.dao
 
 import androidx.lifecycle.LiveData
 import androidx.paging.PagingSource
 import androidx.room.*
-import com.ryde.assignment.nyinyi.contactsapp.data.entity.Contact
+import com.ryde.assignment.nyinyi.contactsapp.data.local.entity.Contact
 
 @Dao
 interface ContactsDao {

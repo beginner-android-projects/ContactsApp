@@ -1,4 +1,4 @@
-package com.ryde.assignment.nyinyi.contactsapp.data.entity
+package com.ryde.assignment.nyinyi.contactsapp.data.local.entity
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

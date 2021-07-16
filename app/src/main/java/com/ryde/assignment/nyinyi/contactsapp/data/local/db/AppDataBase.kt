@@ -1,13 +1,13 @@
-package com.ryde.assignment.nyinyi.contactsapp.data.db
+package com.ryde.assignment.nyinyi.contactsapp.data.local.db
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.ryde.assignment.nyinyi.contactsapp.data.dao.ContactsDao
-import com.ryde.assignment.nyinyi.contactsapp.data.dao.RemoteKeysDao
-import com.ryde.assignment.nyinyi.contactsapp.data.entity.Contact
-import com.ryde.assignment.nyinyi.contactsapp.data.entity.RemoteKeys
+import com.ryde.assignment.nyinyi.contactsapp.data.local.dao.ContactsDao
+import com.ryde.assignment.nyinyi.contactsapp.data.local.dao.RemoteKeysDao
+import com.ryde.assignment.nyinyi.contactsapp.data.local.entity.Contact
+import com.ryde.assignment.nyinyi.contactsapp.data.local.entity.RemoteKeys
 
 @Database(
     entities = [Contact::class, RemoteKeys::class],

@@ -1,4 +1,4 @@
-package com.ryde.assignment.nyinyi.contactsapp.data.entity
+package com.ryde.assignment.nyinyi.contactsapp.data.local.entity
 
 import android.os.Parcelable
 import androidx.room.Entity

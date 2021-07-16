@@ -1,7 +1,7 @@
 package com.ryde.assignment.nyinyi.contactsapp.ui.contact.edit
 
 import androidx.lifecycle.*
-import com.ryde.assignment.nyinyi.contactsapp.data.entity.Contact
+import com.ryde.assignment.nyinyi.contactsapp.data.local.entity.Contact
 import com.ryde.assignment.nyinyi.contactsapp.data.repository.ContactsRepository
 import com.ryde.assignment.nyinyi.contactsapp.utils.Event
 import com.ryde.assignment.nyinyi.contactsapp.utils.postEvent
