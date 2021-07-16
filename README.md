@@ -16,7 +16,7 @@ As an assignment, creating an app similar to the iOS Contacts app but with a muc
 
 
 ## About
-It simply loads **Contacts** data from API and stores it in persistence storage (i.e. Room Database). Contacts will be always loaded from local database. Remote data (from API) and Local data is always synchronized. Used the Modern Android development tools - (Kotlin, Coroutines, Flow, Hilt, Architecture Components, MVVM, Room, Retrofit, Moshi, Material Components).
+It simply loads **Contacts** data from API and stores it in persistence storage (i.e. Room Database). Contacts will be always loaded from local database. Remote data (from API) and Local data is always synchronized. Used the Modern Android development tools - (Kotlin, Coroutines, Flow, Hilt, Architecture Components, MVVM, Room, Retrofit, Material Components).
 
 - This makes it offline capable. 
 - Clean and Simple Material UI.
